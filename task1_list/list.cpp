@@ -20,7 +20,7 @@ void addCar(List* pRoot, char* plateNum)
 {
 
 }
-
+//Funkcja usuwajaca samochody z listy
 void removeCar(List* pRoot, char* plateNum)
 {
 
