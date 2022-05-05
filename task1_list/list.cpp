@@ -51,7 +51,9 @@ void addCar(List* pRoot, char* plateNum)
 	addElem->pNext = nullptr;
 	std::cout << "New element of list was added to end of the list!" << std::endl;
 }
-//Funkcja usuwająca samochód z listy
+
+// Funkcja usuwajaca samochod do listy wjezdzajacy na parking
+
 void removeCar(List* pRoot, char* plateNum)
 {
 	List* temp = pRoot;
@@ -95,13 +97,32 @@ void editCar(List* pRoot, char* plateNum)
 {
 
 }
-
+//name of the function
 void printAll(List* pRoot) 
 {
+=======
+//missing comment for printALL
+void printAll(List* pRoot) {
+
 
 }
 
 int numberOfElements(List* pRoot) //Function showing number of elements.
 {
-	return 0;		//function return
+
+	if(NULL == pRoot)
+	{
+		return 0;
+	}
+		
+	List *entry = pRoot;
+	int counter;
+	for(counter = 0; entry->pNext != NULL; ++counter)
+	{
+		entry = (entry->pNext);
+	}
+	
+	return counter;
+=======
+	return 0;
 }
