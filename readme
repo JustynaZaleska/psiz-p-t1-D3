@@ -95,3 +95,23 @@ void justyna_zaleska(void)
 {
 	Justyna Zaleska
 }
+void damian_fuchler(void)
+{
+        Damian Fuchler
+}
+
+void tytus_szatylowicz(void)
+{
+	Tytus Szatylowicz
+}
+
+void krzysztof_pietrzak(void)
+{
+	Krzysztof Pietrzak
+}
+
+void grzegorz_kowalczyk(void)
+{
+        Grzegorz Kowalczyk
+>>>>>>> upstream/main
+}

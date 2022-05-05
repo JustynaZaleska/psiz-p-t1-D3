@@ -1,6 +1,6 @@
 task1_list
 
-void justyna_zaleska(void)
+void piotr_pakulski(void)
 {
-	Justyna Zaleska
+	Piotr Pakulski
 }
