@@ -51,7 +51,7 @@ void addCar(List* pRoot, char* plateNum)
 	addElem->pNext = nullptr;
 	std::cout << "New element of list was added to end of the list!" << std::endl;
 }
-
+//Funkcja usuwająca samochód z listy
 void removeCar(List* pRoot, char* plateNum)
 {
 	List* temp = pRoot;
